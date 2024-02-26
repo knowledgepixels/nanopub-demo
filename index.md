@@ -1,5 +1,11 @@
 # Nanopub Demo
 
+---
+
+[Video for this demo](https://youtu.be/_wmXHgC706I)
+
+---
+
 This demo gives you a quick hands-on introduction into [nanopublications](https://nanopub.net) via the [Nanodash](https://nanodash.knowledgepixels.com) interface.
 
 Just follow the four steps below.
@@ -42,3 +48,5 @@ We can access this knowledge with queries like these:
 To properly introduce yourself, you can publish an introduction via your [Nanodash profile page](https://nanodash.knowledgepixels.com/profile).
 
 Somebody on the list of [approved users](https://nanodash.knowledgepixels.com/userlist) can now approve your introduction.
+
+---
