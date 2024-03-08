@@ -11,6 +11,7 @@ kramdown:
 remote_theme: knowledgepixels/pages-theme
 plugins:
 - jekyll-remote-theme
+title: "hands-on introduction to nanopublications and Nanodash"
 logo: logo.svg
 description: ""
 footer: ""
