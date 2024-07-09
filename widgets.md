@@ -61,3 +61,15 @@
 <template id="top_authors_template"><li><a nps_user=author></a>: <span nps_innerText=npcount></span></li></template>
 </ul>
 
+
+## Most Used Taxons in Biodiversity Data Journal
+
+<ul>
+<script type="module">
+  import { query } from "https://a.knowledgepixels.com/js/nanopub-utils.js";
+  query("RAINZUI4_X5lNQpOfu1446e8qmZRV2clJ9KNrUUqsTYW4/get-most-used-bdj-taxons", most_used_taxons);
+</script>
+<li class="nps_temp"><em>(loading...)</em></li>
+<template id="most_used_taxons"><li><a nps_innerText=taxonNameLabel nps_attribute="href=taxonName"></a>: <span nps_innerText=taxonNameCount></span></li></template>
+</ul>
+
