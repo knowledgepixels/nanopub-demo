@@ -73,3 +73,14 @@
 <template id="most_used_taxons"><li><a nps_innerText=taxonNameLabel nps_attribute="href=taxonName"></a>: <span nps_innerText=taxonNameCount></span></li></template>
 </ul>
 
+## Top 10 Creators of the Last 30 Days
+
+<ul>
+<script type="module">
+  import { query } from "https://a.knowledgepixels.com/js/nanopub-utils.js";
+  query("RAna6AB9majJbslfFCtrZaM3_QPKzeDnOUsbGOx2LUgfE/get-top-creators-last30d", top_creators_template);
+</script>
+<li class="nps_temp"><em>(loading...)</em></li>
+<template id="top_creators_template"><li><a nps_user=userid></a>: <span nps_innerText=count></span></li></template>
+</ul>
+
