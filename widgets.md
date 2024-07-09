@@ -49,3 +49,15 @@
 <template id="nanopub_count_template"><li><span nps_innerText=journal></span>: <span nps_innerText=npcount></span></li></template>
 </ul>
 
+
+## Top 10 Authors of Accepted Nanopublications
+
+<ul>
+<script type="module">
+  import { query } from "https://a.knowledgepixels.com/js/nanopub-utils.js";
+  query("RACx9IgQMsU3UZqrGlYk6efLg5jJTFldTrXypwTTJbo40/get-top-authors", top_authors_template);
+</script>
+<li class="nps_temp"><em>(loading...)</em></li>
+<template id="top_authors_template"><li><a nps_user=author></a>: <span nps_innerText=npcount></span></li></template>
+</ul>
+
