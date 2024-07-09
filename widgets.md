@@ -37,3 +37,15 @@
 <template id="ds_nanopubs_template"><li><span class="nanopub_icon"></span> <a nps_attribute="href=np" target="_blank"><span nps_innerText=label></span></a>, by <a nps_user=mainAuthor>unknown authors</a><span nps_innerText=authorEtAl></span>, <span nps_innerText=date></span></li></template>
 </ul>
 
+
+## Nanopublication Count per Journal
+
+<ul>
+<script type="module">
+  import { query } from "https://a.knowledgepixels.com/js/nanopub-utils.js";
+  query("RAAllx86xmfVXUeOsduOTdl2RdekO5MjYRUM-JOFSfbVM/get-np-count-per-journal", nanopub_count_template);
+</script>
+<li class="nps_temp"><em>(loading...)</em></li>
+<template id="nanopub_count_template"><li><span nps_innerText=journal></span>: <span nps_innerText=npcount></span></li></template>
+</ul>
+
