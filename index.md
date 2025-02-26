@@ -36,9 +36,9 @@ All nanopublications are published to a [decentralized network of services](http
 
 We can access this knowledge with queries like these:
 
-- [All over-/underrated opinions](https://tapas.knowledgepixels.com/tapas.html?api=knowledgepixels/overunderrated-queries&op=/get-entries&autosubmit=on)
-- [Top overrated things](https://tapas.knowledgepixels.com/tapas.html?api=knowledgepixels/overunderrated-queries&op=/top-overrated&autosubmit=on)
-- [Top underrated things](https://tapas.knowledgepixels.com/tapas.html?api=knowledgepixels/overunderrated-queries&op=/top-underrated&autosubmit=on)
+- [All over-/underrated opinions](https://nanodash.knowledgepixels.com/resulttable?query=RAcQSC_S5n3SNE-hhKuRFah5MG9d1OZtl4765rm35k19Q/get-overunderrated-entries)
+- [Top overrated things](https://nanodash.knowledgepixels.com/resulttable?query=RAZuzkHF692vje-H5_6SU7FFktEFDG5xhAgWoRo1FxcBY/get-top-overrated)
+- [Top underrated things](https://nanodash.knowledgepixels.com/resulttable?query=RAcdE_TAqkHUH2RpE6s4q9Fs7vg_CBaeQF6OVdaM1ZCvw/get-top-underrated)
 - [Latest nanopublications (without example nanopublications)](https://tapas.knowledgepixels.com/tapas.html?api=knowledgepixels/nanopub-query-api&op=/get-latest-nanopubs&autosubmit=on)
 - [Latest example nanopublications](https://tapas.knowledgepixels.com/tapas.html?api=knowledgepixels/nanopub-query-api&op=/get-latest-example-nanopubs&autosubmit=on)
 
