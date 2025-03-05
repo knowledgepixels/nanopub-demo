@@ -40,4 +40,24 @@ You can also access these nanopublications through custom queries via the techni
 - [SPARQL endpoint with all nanopublications](https://query.knowledgepixels.com/tools/full/yasgui.html)
 - [SPARQL endpoint with FDO nanopublications only](https://query.knowledgepixels.com/tools/type/f82fa5e467e6ba40c5d14402c3590f2ad8ed9a13e982133ab26ef1a889b34ebd/yasgui.html)
 
+## 4. HTTP access of FDO metadata/content
+
+Get FDO metadata as TriG:
+
+    $ curl -L \
+        -H 'FDO: metadata' \
+        -H 'Accept: application/trig' \
+        'https://w3id.org/np/RAwToTy-lTyJDU9SkYryUp9yjrQx-rokX_M4sz85MQpmA#abc-table'
+
+The header `FDO: metadata` is optional, as the metadata is returned by default. You can also try `application/ld+json` or `application/trix` as format in the Accept header.
+
+Get FDO content in specified format:
+
+   $ curl -L \
+       -H 'FDO: object' \
+       -H 'Accept: text/csv' \
+       'https://w3id.org/np/RAwToTy-lTyJDU9SkYryUp9yjrQx-rokX_M4sz85MQpmA#abc-table'
+
+In this particular example, the Accept header can be set to `application/vnd.ms-excel` to get the same table in Excel format.
+
 ---
