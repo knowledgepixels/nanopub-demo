@@ -32,16 +32,12 @@ All nanopublications are published to a [decentralized network of services](http
 We can access this knowledge with pre-defined queries like these:
 
 - [See all FDOs defined in nanopublications](https://nanodash.knowledgepixels.com/resulttable?query=RAZgtM7Kzb0aTBlH4coOzlfgzBOoofqROCIMZTW3KliLQ/get-fdos)
+- [Latest nanopublications (without example nanopublications)](https://nanodash.knowledgepixels.com/resulttable?query=RAAq7D8hWYXL-XTflG1u19maDe7nSJy6Iun5wa_KadOqg/get-latest-nanopubs)
+- [Latest example nanopublications](https://nanodash.knowledgepixels.com/resulttable?query=RAlmS9Sp0Cjxv6vyiJff6TWWqNfJXj7LmkdoLNy6ZSeJ8/get-latest-example-nanopubs)
 
-You can also access these nanopublications through technical SPARQL interfaces:
+You can also access these nanopublications through custom queries via the technical SPARQL interfaces:
 
 - [SPARQL endpoint with all nanopublications](https://query.knowledgepixels.com/tools/full/yasgui.html)
-
-
-## 4. Introduce yourself and be approved by community
-
-To properly introduce yourself, you can publish an introduction via your [Nanodash profile page](https://nanodash.knowledgepixels.com/profile).
-
-Somebody on the list of [approved users](https://nanodash.knowledgepixels.com/userlist) can now approve your introduction.
+- [SPARQL endpoint with FDO nanopublications only](https://query.knowledgepixels.com/tools/type/f82fa5e467e6ba40c5d14402c3590f2ad8ed9a13e982133ab26ef1a889b34ebd/yasgui.html)
 
 ---
