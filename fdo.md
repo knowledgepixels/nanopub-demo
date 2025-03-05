@@ -53,10 +53,10 @@ The header `FDO: metadata` is optional, as the metadata is returned by default. 
 
 Get FDO content in specified format:
 
-   $ curl -L \
-       -H 'FDO: object' \
-       -H 'Accept: text/csv' \
-       'https://w3id.org/np/RAwToTy-lTyJDU9SkYryUp9yjrQx-rokX_M4sz85MQpmA#abc-table'
+    $ curl -L \
+        -H 'FDO: object' \
+        -H 'Accept: text/csv' \
+        'https://w3id.org/np/RAwToTy-lTyJDU9SkYryUp9yjrQx-rokX_M4sz85MQpmA#abc-table'
 
 In this particular example, the Accept header can be set to `application/vnd.ms-excel` to get the same table in Excel format.
 
