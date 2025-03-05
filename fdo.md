@@ -61,3 +61,9 @@ Get FDO content in specified format:
 In this particular example, the Accept header can be set to 'application/vnd.ms-excel' to get the same table in Excel format.
 
 ---
+
+## Background
+
+- We are loosely following the [FAIR Digital Object Framework](https://fairdigitalobjectframework.org/).
+
+---
